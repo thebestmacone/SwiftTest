@@ -13,6 +13,8 @@
 		F460B7071C60095F00BF2C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F460B7061C60095F00BF2C22 /* Assets.xcassets */; };
 		F460B70A1C60095F00BF2C22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F460B7081C60095F00BF2C22 /* LaunchScreen.storyboard */; };
 		F460B7121C600F7200BF2C22 /* TestComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F460B7111C600F7200BF2C22 /* TestComponent.swift */; };
+		F460B7141C6F60EF00BF2C22 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F460B7131C6F60EF00BF2C22 /* RatingControl.swift */; };
+		F460B7161C71358300BF2C22 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F460B7151C71358300BF2C22 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F460B7091C60095F00BF2C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F460B70B1C60095F00BF2C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F460B7111C600F7200BF2C22 /* TestComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestComponent.swift; sourceTree = "<group>"; };
+		F460B7131C6F60EF00BF2C22 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		F460B7151C71358300BF2C22 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				F460B6FF1C60095F00BF2C22 /* AppDelegate.swift */,
+				F460B7131C6F60EF00BF2C22 /* RatingControl.swift */,
 				F460B7011C60095F00BF2C22 /* ViewController.swift */,
 				F460B7111C600F7200BF2C22 /* TestComponent.swift */,
 				F460B7031C60095F00BF2C22 /* Main.storyboard */,
 				F460B7061C60095F00BF2C22 /* Assets.xcassets */,
 				F460B7081C60095F00BF2C22 /* LaunchScreen.storyboard */,
 				F460B70B1C60095F00BF2C22 /* Info.plist */,
+				F460B7151C71358300BF2C22 /* Meal.swift */,
 			);
 			path = SwiftTest;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F460B7161C71358300BF2C22 /* Meal.swift in Sources */,
+				F460B7141C6F60EF00BF2C22 /* RatingControl.swift in Sources */,
 				F460B7121C600F7200BF2C22 /* TestComponent.swift in Sources */,
 				F460B7021C60095F00BF2C22 /* ViewController.swift in Sources */,
 				F460B7001C60095F00BF2C22 /* AppDelegate.swift in Sources */,
@@ -290,6 +298,7 @@
 				F460B7101C60095F00BF2C22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
