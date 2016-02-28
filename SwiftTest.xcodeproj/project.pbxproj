@@ -15,7 +15,20 @@
 		F460B7121C600F7200BF2C22 /* TestComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F460B7111C600F7200BF2C22 /* TestComponent.swift */; };
 		F460B7141C6F60EF00BF2C22 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F460B7131C6F60EF00BF2C22 /* RatingControl.swift */; };
 		F460B7161C71358300BF2C22 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F460B7151C71358300BF2C22 /* Meal.swift */; };
+		F460B71E1C75278900BF2C22 /* SwiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F460B71D1C75278900BF2C22 /* SwiftTestTests.swift */; };
+		F4ABA2D41C79B9E20064A941 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F460B7151C71358300BF2C22 /* Meal.swift */; };
+		F4ABA2D61C7A657E0064A941 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ABA2D51C7A657E0064A941 /* MealTableViewCell.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F460B7201C75278900BF2C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F460B6F41C60095F00BF2C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F460B6FB1C60095F00BF2C22;
+			remoteInfo = SwiftTest;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F460B6FC1C60095F00BF2C22 /* SwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,10 +41,21 @@
 		F460B7111C600F7200BF2C22 /* TestComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestComponent.swift; sourceTree = "<group>"; };
 		F460B7131C6F60EF00BF2C22 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		F460B7151C71358300BF2C22 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		F460B71B1C75278900BF2C22 /* SwiftTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F460B71D1C75278900BF2C22 /* SwiftTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestTests.swift; sourceTree = "<group>"; };
+		F460B71F1C75278900BF2C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4ABA2D51C7A657E0064A941 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F460B6F91C60095F00BF2C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F460B7181C75278900BF2C22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				F460B6FE1C60095F00BF2C22 /* SwiftTest */,
+				F460B71C1C75278900BF2C22 /* SwiftTestTests */,
 				F460B6FD1C60095F00BF2C22 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				F460B6FC1C60095F00BF2C22 /* SwiftTest.app */,
+				F460B71B1C75278900BF2C22 /* SwiftTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				F460B6FF1C60095F00BF2C22 /* AppDelegate.swift */,
+				F4ABA2D51C7A657E0064A941 /* MealTableViewCell.swift */,
 				F460B7131C6F60EF00BF2C22 /* RatingControl.swift */,
 				F460B7011C60095F00BF2C22 /* ViewController.swift */,
 				F460B7111C600F7200BF2C22 /* TestComponent.swift */,
@@ -71,6 +98,15 @@
 				F460B7151C71358300BF2C22 /* Meal.swift */,
 			);
 			path = SwiftTest;
+			sourceTree = "<group>";
+		};
+		F460B71C1C75278900BF2C22 /* SwiftTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F460B71D1C75278900BF2C22 /* SwiftTestTests.swift */,
+				F460B71F1C75278900BF2C22 /* Info.plist */,
+			);
+			path = SwiftTestTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +129,24 @@
 			productReference = F460B6FC1C60095F00BF2C22 /* SwiftTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F460B71A1C75278900BF2C22 /* SwiftTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F460B7221C75278900BF2C22 /* Build configuration list for PBXNativeTarget "SwiftTestTests" */;
+			buildPhases = (
+				F460B7171C75278900BF2C22 /* Sources */,
+				F460B7181C75278900BF2C22 /* Frameworks */,
+				F460B7191C75278900BF2C22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F460B7211C75278900BF2C22 /* PBXTargetDependency */,
+			);
+			name = SwiftTestTests;
+			productName = SwiftTestTests;
+			productReference = F460B71B1C75278900BF2C22 /* SwiftTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -105,6 +159,10 @@
 				TargetAttributes = {
 					F460B6FB1C60095F00BF2C22 = {
 						CreatedOnToolsVersion = 7.2;
+					};
+					F460B71A1C75278900BF2C22 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F460B6FB1C60095F00BF2C22;
 					};
 				};
 			};
@@ -122,6 +180,7 @@
 			projectRoot = "";
 			targets = (
 				F460B6FB1C60095F00BF2C22 /* SwiftTest */,
+				F460B71A1C75278900BF2C22 /* SwiftTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +196,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F460B7191C75278900BF2C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -146,13 +212,31 @@
 			files = (
 				F460B7161C71358300BF2C22 /* Meal.swift in Sources */,
 				F460B7141C6F60EF00BF2C22 /* RatingControl.swift in Sources */,
+				F4ABA2D61C7A657E0064A941 /* MealTableViewCell.swift in Sources */,
 				F460B7121C600F7200BF2C22 /* TestComponent.swift in Sources */,
 				F460B7021C60095F00BF2C22 /* ViewController.swift in Sources */,
 				F460B7001C60095F00BF2C22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F460B7171C75278900BF2C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4ABA2D41C79B9E20064A941 /* Meal.swift in Sources */,
+				F460B71E1C75278900BF2C22 /* SwiftTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F460B7211C75278900BF2C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F460B6FB1C60095F00BF2C22 /* SwiftTest */;
+			targetProxy = F460B7201C75278900BF2C22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F460B7031C60095F00BF2C22 /* Main.storyboard */ = {
@@ -279,6 +363,30 @@
 			};
 			name = Release;
 		};
+		F460B7231C75278900BF2C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AA.SwiftTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTest.app/SwiftTest";
+			};
+			name = Debug;
+		};
+		F460B7241C75278900BF2C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AA.SwiftTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTest.app/SwiftTest";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -296,6 +404,15 @@
 			buildConfigurations = (
 				F460B70F1C60095F00BF2C22 /* Debug */,
 				F460B7101C60095F00BF2C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F460B7221C75278900BF2C22 /* Build configuration list for PBXNativeTarget "SwiftTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F460B7231C75278900BF2C22 /* Debug */,
+				F460B7241C75278900BF2C22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
