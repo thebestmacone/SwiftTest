@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F41FEE091C832E2300C63F11 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41FEE081C832E2300C63F11 /* MealTableViewController.swift */; };
 		F460B7001C60095F00BF2C22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F460B6FF1C60095F00BF2C22 /* AppDelegate.swift */; };
 		F460B7021C60095F00BF2C22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F460B7011C60095F00BF2C22 /* ViewController.swift */; };
 		F460B7051C60095F00BF2C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F460B7031C60095F00BF2C22 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F41FEE081C832E2300C63F11 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		F460B6FC1C60095F00BF2C22 /* SwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F460B6FF1C60095F00BF2C22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F460B7011C60095F00BF2C22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				F4ABA2D51C7A657E0064A941 /* MealTableViewCell.swift */,
 				F460B7131C6F60EF00BF2C22 /* RatingControl.swift */,
 				F460B7011C60095F00BF2C22 /* ViewController.swift */,
+				F41FEE081C832E2300C63F11 /* MealTableViewController.swift */,
 				F460B7111C600F7200BF2C22 /* TestComponent.swift */,
 				F460B7031C60095F00BF2C22 /* Main.storyboard */,
 				F460B7061C60095F00BF2C22 /* Assets.xcassets */,
@@ -212,6 +215,7 @@
 			files = (
 				F460B7161C71358300BF2C22 /* Meal.swift in Sources */,
 				F460B7141C6F60EF00BF2C22 /* RatingControl.swift in Sources */,
+				F41FEE091C832E2300C63F11 /* MealTableViewController.swift in Sources */,
 				F4ABA2D61C7A657E0064A941 /* MealTableViewCell.swift in Sources */,
 				F460B7121C600F7200BF2C22 /* TestComponent.swift in Sources */,
 				F460B7021C60095F00BF2C22 /* ViewController.swift in Sources */,
